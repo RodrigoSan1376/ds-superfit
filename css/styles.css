@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
 
 :root {
   --bg-color-red: #f03c42;
   --bg-dark-blue: #222374;
   --color-white: #fff;
   --color-black: #000;
-  --bg-color-gray: #CCC;
+  --bg-color-gray: #ccc;
 }
 
 * {
@@ -15,9 +15,10 @@
   box-sizing: border-box;
 }
 
-a, a:hover {
-    text-decoration: none;
-    color: unset;
+a,
+a:hover {
+  text-decoration: none;
+  color: unset;
 }
 
 header {
@@ -28,21 +29,21 @@ header {
 }
 
 header nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 header nav h1 {
   font-size: 18px;
 }
 
-header nav a {  
+header nav a {
   font-size: 14px;
 }
 
 header img {
-  margin-right: 10px;  
+  margin-right: 10px;
   width: 30px;
   height: 30px;
 }
@@ -54,66 +55,106 @@ header img {
 }
 
 .nav-right-content {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 #showcase {
-    padding: 20px;
-    display: flex;
-    align-items: center;    
-    background-color: var(--bg-dark-blue);
-    color: var(--color-white);
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  background-color: var(--bg-dark-blue);
+  color: var(--color-white);
 }
 
 #showcase h2 {
-    margin-bottom: 40px;
-    font-size: 32px;        
+  margin-bottom: 40px;
+  font-size: 32px;
 }
 
 .showcase-card {
-    padding: 20px;
-    height: 127px;
-    border-radius: 8px;    
-    margin-bottom: 20px;
-    background-color: var(--bg-color-gray)
+  padding: 20px;
+  height: 127px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  background-color: var(--bg-color-gray);
 }
 
 .showcase-card h3 {
-    color: var(--color-black);
-    margin-bottom: 20px;
-    font-size: 20px;
+  color: var(--color-black);
+  margin-bottom: 20px;
+  font-size: 20px;
 }
 
 .showcase-card p {
-    color: var(--color-black);
-    font-size: 14px;
+  color: var(--color-black);
+  font-size: 14px;
 }
 
 #styles {
-    padding: 20px;
-    background-color: var(--color-white);
-    color: var(--bg-color-red);
+  padding: 20px;
+  background-color: var(--color-white);
+  color: var(--bg-color-red);
 }
 
 #styles h2 {
-    font-size: 32px;   
-    margin-bottom: 40px;
+  font-size: 32px;
+  margin-bottom: 40px;
 }
 
 .styles-card {
-    margin-bottom: 20px;
-    padding: 20px;
-    background-color: var(--bg-dark-blue);
-    border-radius: 8px;
-    height: 106px;
-    color: var(--color-white);
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: var(--bg-dark-blue);
+  border-radius: 8px;
+  height: 106px;
+  color: var(--color-white);
 }
 
 .styles-card h3 {
-    margin-bottom: 20px;
+  font-size: 20px;  
+  margin-bottom: 20px;
 }
 
 .styles-card p {
-    color: var(--bg-color-gray);
+  font-size: 14px;  
+  color: var(--bg-color-gray);
+}
+
+footer {
+  height: 262px;
+  background-color: var(--color-black);
+  display: flex;
+  align-items: center;
+  color: var(--color-white);
+}
+
+.social-media-link {
+  margin: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.social-media-link img {
+  width: 30px;
+  height: 30px;
+}
+
+.social-media-link a {
+  margin-left: 10px;
+  font-size: 14px;
+}
+
+.footer-text {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 14px;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
